@@ -3,5 +3,13 @@
 
 //TODO
 function alexMistakes(numberOfKata, timeLimit){
-  
+    let timeHours = numberOfKata/10
+
+    let freeTime = timeLimit - timeHours*60
+
+    let mistakes = Math.log((2, freeTime/5)) 
+
+    return Math.floor(mistakes +1)
   }
+
+  console.log(alexMistakes(30, 500))
