@@ -5,7 +5,7 @@ function maskify(cc) {
   let number = cc.length-4
   let chopNew = chopReverse.reverse()
   
-
+console.log(reversed)
 
   let arr = ''
   
@@ -19,4 +19,4 @@ return arr + chopNew.join('')
 
 }
 
-console.log(maskify('whatupboy'));
+console.log(maskify('4556364607935616'));
